@@ -1,0 +1,24 @@
+extends layout
+
+block layout-content
+    div.bar 
+        span #{user.display} [#{user.email}]
+        div.barbtn
+            form(action="/ntest/api/logout", method="POST")
+                input(type="submit", value="Logout")
+    div.data
+        h3 User data
+        table(width="80%", align="center", border="0", id="datable")
+            tr
+                th Moment
+                th X
+                th Y
+                th Z
+            tr
+                td 
+                td 
+                td 
+                td
+    script.
+        bootstrap_index();
+

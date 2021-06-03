@@ -1,0 +1,48 @@
+html,body{ height:100%; padding: 0.5em;}
+
+.hidden {
+    display: none;
+}
+
+.login1 {
+    width: 20%;
+    height: 20%;
+    top: 40%;
+    left: 40%;
+    position: absolute;
+    text-align: center;
+}
+
+.login2 {
+    display: inline-block;
+    margin-x: auto;
+    text-align: right;
+}
+
+.error {
+    color: red;
+}
+
+.bar {
+    color: green;
+    background-color: #fafafa;
+    width: 100%;
+    padding: 0.5em;
+}
+
+.barbtn{
+    float: right;
+    margin-right: 1em;
+}
+
+.data {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 1em;
+}
+
+td, th {
+    font-family: sans-serif;
+    text-align: center;
+}

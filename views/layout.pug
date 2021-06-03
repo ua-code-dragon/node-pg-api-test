@@ -1,0 +1,15 @@
+block variables
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name="theme-color", content="#000000")
+        script(src="https://code.jquery.com/jquery-3.6.0.min.js", integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=", crossorigin="anonymous")
+        script(src="/ntest/static/index.js")
+        link(rel='stylesheet', href='/ntest/static/index.css')
+        title #{title} 
+    body
+        div#root
+            block layout-content
+

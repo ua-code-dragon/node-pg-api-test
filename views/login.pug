@@ -1,0 +1,16 @@
+extends layout
+
+
+block layout-content
+    div.login1
+        if msg
+            p.error #{msg}
+        div.login2
+            form(action='', id='login')
+                p Username: 
+                    input(name='username', value='', type='text')
+                p Password: 
+                    input(name='password', value='', type='password')
+                input(type='button', value='Login', id='loginbtn')
+    script.
+        bootstrap_login();
